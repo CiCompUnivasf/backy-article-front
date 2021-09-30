@@ -76,6 +76,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     '@typescript-eslint/no-unsafe-assignment': 'warn',
+    '@typescript-eslint/no-unsafe-member-access': 'off',
     'prefer-promise-reject-errors': 'off',
 
     // TypeScript

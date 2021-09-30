@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import EnviarArtigo from 'components/ClassComponent.vue';
+import EnviarArtigo from 'components/EnviarArtigo.vue';
 import { Options, Vue } from 'vue-class-component';
 
 @Options({
