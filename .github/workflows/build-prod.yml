@@ -54,7 +54,7 @@ jobs:
           DISCORD_WEBHOOK: https://discord.com/api/webhooks/${{ secrets.WEBHOOK_ID }}/${{ secrets.WEBHOOK_TOKEN }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'Um novo commit foi pushado em `{{ EVENT_PAYLOAD.repository.full_name }}`. O ambiente http://dev.conecta.imagineapps.com.br foi atualizado.'
+          args: 'Um novo commit foi pushado em `{{ EVENT_PAYLOAD.repository.full_name }}`. O ambiente https://backy.ccicomp.com.br foi atualizado.'
       - name: Enviando mensagem no Discord
         env:
           DISCORD_WEBHOOK: https://discord.com/api/webhooks/${{ secrets.WEBHOOK_ID }}/${{ secrets.WEBHOOK_TOKEN }}
